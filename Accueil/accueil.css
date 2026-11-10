@@ -1,0 +1,12 @@
+:root {
+    --main-border-color: #003cff;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid var(--main-border-color);
+    border-radius: 10px;
+    color: #00ff88;
+    background-color: #e6e6ff;
+}
