@@ -1,0 +1,47 @@
+
+/* COULEURS PRINCIPALES */
+
+:root {
+    --cream: #FFF7F0;
+    --pink: #A8436D;
+    --purple: #7C3AED;
+    --plum: #3F2935;
+    --ink: #35252E;
+    --muted: #8E727E;
+    --line: #EBD9DF;
+    --white: #FFFFFF;
+
+    --shadow: 0 18px 50px rgba(88, 44, 65, .11);
+}
+
+
+/* PARAMÈTRES GÉNÉRAUX */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--plum);
+    font-family: 'Nunito', sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
